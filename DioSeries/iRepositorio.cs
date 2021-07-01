@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DioSeries
 {
-    interface iRepositorio<T>
+    interface IRepositorio<T>
     {
         List<T> Lista();
 
@@ -12,7 +12,7 @@ namespace DioSeries
 
         void Insere(T entidade);
 
-        void Excluir(int id);
+        void Exclui(int id);
 
         void Atualizar(int id, T entidade);
 
